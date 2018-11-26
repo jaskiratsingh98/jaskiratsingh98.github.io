@@ -1,0 +1,245 @@
+/* Main page with stikky-footer
+-------------------------------------------------- */
+html,
+body {
+  height: 100%;
+  background-color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  /* The html and body elements cannot have any padding or margin. */
+  border-top: 3px solid #8064A7;
+}
+/* Wrapper for page content to push down footer */
+#wrap {
+  padding-bottom: 50px;
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -65px;
+  /* Pad bottom by footer height */
+  /*padding: 0 0 60px;*/
+}
+
+/* Navbar
+-------------------------------------------------- */
+
+.navbar-static-top {
+  margin-bottom: 10px;
+}
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.navbar-default .navbar-brand {
+  color: #060408;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #060408;
+}
+.navbar-default .navbar-text {
+  color: #060408;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #060408;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #060408;
+}
+.navbar-default .navbar-link {
+  color: #060408;
+}
+.navbar-default .navbar-link:hover {
+  color: #060408;
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #060408;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #060408;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #060408;
+    background-color: #ffffff;
+  }
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+.container {
+  width: auto;
+  max-width: 1000px;
+  text-align: center;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+.container a {
+  color: #8064A7;
+}
+.container a:hover {
+  color: #b5a5cc;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    min-height: 320px;
+}
+.left {
+  width: 40%;
+  text-align: right;
+  padding-right: 30px
+}
+.right {
+  padding: 0px;
+  width: 60%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    max-width: 100%;
+}
+@media (max-width: 800px) {
+    .column {
+        width: 100%;
+       text-align: center;
+    }
+}
+.bio {
+  width: 90%;
+
+  display: inline-block;
+  text-align: justify;
+}
+.img-responsive {
+ display: block;
+ height: auto;
+ max-width: 100%;
+}
+.panel-default h4 {
+  text-align: left;
+  line-height: 24px;
+  font-size: 22px;
+}
+.panel-default h5 {
+  text-align: left;
+  line-height: 30px;
+  font-size: 18px;
+}
+.panel-default h6 {
+  font-size: 15px;
+}
+.panel-default h4 a, h5 a {
+  color: #8064A7;
+}
+.panel-default h4 a:hover, h5 a:hover {
+  color: #b5a5cc;
+}
+.panel{
+  border-style: none;
+}
+.panel-body {
+  padding-top: -10px;
+  text-align: left;
+  margin: auto;
+  width: 80%;
+}
+.social {
+  padding-bottom: 5px;
+  word-spacing: 25px;
+  padding-top: 5px;
+}
+.social h4 > a {
+  color: #000000;
+}
+.avatar {
+  align: center;
+}
+.blog-post{
+  padding-top: 2px;
+}
+.blog-title{
+  padding-top: 2px;
+}
+.blog-url{
+  padding-top: 2px;
+}
+.teaching-tags{
+
+}
+.teaching-title{
+  width: 55%;
+  margin: auto;
+  text-align: left;
+  padding-top: 2px;
+}
+.related-posts h4 {
+  text-align: center;
+}
+.page-not-found {
+  padding-top: 20%;
+}
+.disqus {
+  padding-bottom: 15px;
+}
+
+.blogpost{
+  text-align: left;
+  line-height: 30px;
+  font-size: 18px;
+}
+.projpost{
+  text-align: left;
+  line-height: 20px;
+  font-size: 16px;
+}
+.coursepost{
+  text-align: left;
+  line-height: 20px;
+  font-size: 18px;
+}
+.publication{
+  text-align: left;
+  line-height: 20px;
+  font-size: 16px;
+}
+.education{
+  line-height: 10px;
+  font-size: 16px;
+}
+.label {
+    color: white;
+    padding: 4px;
+    background-color: #b5a5cc;
+   /*color: black;*/
+}
+
+
+
+/* Footer
+-------------------------------------------------- */
+
+.footer {
+  text-decoration: none !important;
+}
+.text-muted {
+	color: #b5a5cc;
+}
+div.footer{
+  border-bottom: 5px solid #8064A7;
+}
+/* Set the fixed height of the footer here */
+/*.footer {
+  height: 50px;
+  padding-bottom: 15px;
+
+}*/
+
