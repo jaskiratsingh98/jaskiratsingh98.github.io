@@ -6,7 +6,7 @@ body {
   background-color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   /* The html and body elements cannot have any padding or margin. */
-  border-top: 3px solid #8064A7;
+  border-top: 3px solid #859ec4;
 }
 /* Wrapper for page content to push down footer */
 #wrap {
@@ -86,6 +86,9 @@ body {
 .container a:hover {
   color: #b5a5cc;
 }
+.empty {
+  padding-top: 40px;
+}
 .column {
     float: left;
     width: 50%;
@@ -118,6 +121,9 @@ body {
 
   display: inline-block;
   text-align: justify;
+}
+.img-email {
+  
 }
 .img-responsive {
  display: block;
@@ -154,11 +160,8 @@ body {
 }
 .social {
   padding-bottom: 5px;
-  word-spacing: 25px;
+  word-spacing: 2px;
   padding-top: 5px;
-}
-.empty {
-  padding-bottom: 20px;
 }
 .social h4 > a {
   color: #000000;
@@ -234,10 +237,10 @@ body {
   text-decoration: none !important;
 }
 .text-muted {
-	color: #5b7cbc;
+	color: #859ec4;
 }
 div.footer{
-  border-bottom: 5px solid #8064A7;
+  border-bottom: 5px solid #859ec4;
 }
 /* Set the fixed height of the footer here */
 /*.footer {
