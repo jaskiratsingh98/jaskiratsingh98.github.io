@@ -26,7 +26,7 @@ body {
   margin-bottom: 10px;
 }
 .navbar-default {
-  background-color: #bbbbbb;
+  background-color: #ffffff;
   border-color: #ffffff;
 }
 .navbar-default .navbar-brand {
@@ -221,7 +221,7 @@ body {
 .label {
     color: white;
     padding: 4px;
-    background-color: #b5a5cc;
+    background-color: #5b7cbc;
    /*color: black;*/
 }
 
@@ -234,7 +234,7 @@ body {
   text-decoration: none !important;
 }
 .text-muted {
-	color: #b5a5cc;
+	color: #5b7cbc;
 }
 div.footer{
   border-bottom: 5px solid #8064A7;
